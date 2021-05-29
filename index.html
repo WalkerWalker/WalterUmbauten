@@ -13,7 +13,6 @@
     <link rel="stylesheet" href="css/bulma-carousel.min.css">
     <script src="js/jquery-3.4.1.min.js"></script>
     <script defer src="js/fontawesome/all.js"></script>
-    <script src="js/dom-i18n.min.js"></script>
     <script src="js/rsvp.js"></script>
     <script src="js/particles.min.js"></script>
     <script src=js/particles-config.js></script>
@@ -122,14 +121,6 @@
   </footer>
   <!--TODO no idea why the script needs to at bottom-->
   <script>
-    var i18n = window.domI18n({
-      languages: ['en', 'cn'],
-        defaultLanguage: 'cn'
-    });
-    if (navigator.language.substring(0, 2) == 'en' || navigator.language.substring(0, 2) == 'de') {
-      i18n.changeLanguage('en');
-    }
-
     bulmaCarousel.attach('.hero-carousel', {
       pagination: true,
       navigationSwipe: true,
