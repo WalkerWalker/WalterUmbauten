@@ -6,7 +6,7 @@
   font-size: 3.33rem;
 }
 
-.info{
+/*.info{
   font-size: 1.25rem;
 }
 
@@ -22,7 +22,7 @@
   background-repeat:no-repeat; 
   background-position:center center;
   background-size: cover;
-  display: flex; /*make child at bottom*/
+  display: flex; 
   flex-direction: column;
 }
 
@@ -37,4 +37,9 @@
 
 .hero.full-height {
   min-height: 50vh;
+} */
+
+.footer {
+  background-color: #48c774; /*color of is-success*/;
+  padding: 1rem 0rem 1rem;
 }
